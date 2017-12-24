@@ -25,7 +25,7 @@ class App extends Component {
               <div className="container">
                 <div className="navbar-brand">
                   <a className="navbar-item">
-                    <img className="image is-16x16" src="https://s3-us-west-2.amazonaws.com/mypf/images/tc_icon.png" />
+                    <img className="image is-32x16" src="https://s3.eu-west-2.amazonaws.com/pfacamuto/aclogo.png" />
                   </a>
                   <span className="navbar-burger burger">
                     <span></span>
@@ -40,12 +40,16 @@ class App extends Component {
                       LinkedIn
                     </a>
                     <a className="navbar-item has-text-weight-bold"
-                      href="https://github.com/tchardin" target="_blank">
+                      href="https://github.com/a-camuto" target="_blank">
                       Github
                     </a>
                     <a className="navbar-item has-text-weight-bold"
                       href="mailto:alexander.camuto@gmail.com">
                       Email
+                    </a>
+                    <a className="navbar-item has-text-weight-bold"
+                      href="https://s3.eu-west-2.amazonaws.com/pfacamuto/resume_alex_camuto.pdf" target="_blank">
+                      CV
                     </a>
                   </div>
                 </div>
@@ -71,24 +75,24 @@ class App extends Component {
               <figure className="image is-16by9">
                 <img src="https://s3-us-west-2.amazonaws.com/mypf/images/vinyl.png" />
               </figure>
-              <p className="title is-uppercase yellowLine">Vinyl Dreams</p>
-              <p className="subtitle">How might we enable non musicians to create and share their own music?</p>
+              <p className="title is-uppercase yellowLine">C-trade</p>
+              <p className="subtitle">Reinforcement learning for crypto-currency trading.</p>
               <div className="content">
-                <p>Vinyl Dreams is a mobile app for music creation.</p>
+                <p>C-trade involves a backtesting environment to train a DQN neural network to automate crypto-currency trading. The trained network can be connecting to an automated order-router to execute real trades. </p>
               </div>
               <div className="tags">
-                <span className="tag is-danger">UI/UX</span>
-                <span className="tag is-danger">iOS</span>
+                <span className="tag is-danger">Deep Learning</span>
+                <span className="tag is-danger">Finance</span>
               </div>
             </article>
           </div>
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image is-16by9">
-                <img src="https://s3-us-west-2.amazonaws.com/mypf/images/proem.png" />
+                <img src="https://s3.eu-west-2.amazonaws.com/pfacamuto/proem2.png" />
               </figure>
               <p className="title is-uppercase yellowLine">Proem</p>
-              <p className="subtitle">How might we design a secure and decentralized cryptocurrency portfolio manager?</p>
+              <p className="subtitle">A secure and decentralized cryptocurrency portfolio manager.</p>
               <div className="content">
                 <p>Proem is a decentralized portfolio management platform built on Blockstack. It enables users to visualize their assets with metrics from multiple markets and blockchains with data encrypted on their own controlled storage.</p>
               </div>
@@ -102,19 +106,19 @@ class App extends Component {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image">
-                <img src="https://s3-us-west-2.amazonaws.com/mypf/images/ezgif.com-resize.gif" />
+                <img src="https://s3.eu-west-2.amazonaws.com/pfacamuto/questions.png" />
               </figure>
-              <p className="title is-uppercase blueLine">Credo</p>
-              <p className="subtitle">How might we enable credit thin/invisible individuals to bootstrap financial reputation?</p>
+              <p className="title is-uppercase blueLine">Plant-on-a-chip</p>
+              <p className="subtitle">Machine Learning and paper-based sensors for plants.</p>
               <div className="content">
-                <p>Credo is a decentralized data verification platform. Credit invisible users self report their data leveraging cryptography to prove authenticity and bootstrap a new decentralized and portable reputation.</p>
-                <p>This app was built throughout the summer for IDEO Colab.</p>
+                <p>Plant-on-a-chip involves paper-based sensors and machine learning tools that detect infection, drought and lack of nutrients in plants. The project was awarded the Stephen Richardson Award for best MEng thesis.
+</p>
               </div>
               <div className="tags">
-                <span className="tag is-danger">Decentralized Identity</span>
-                <span className="tag is-danger">Cryptography</span>
-                <span className="tag is-danger">iOS</span>
-                <span className="tag is-danger">React Native</span>
+                <span className="tag is-danger">Electronics</span>
+                <span className="tag is-danger">Chemistry</span>
+                <span className="tag is-danger">Machine Learning</span>
+                <span className="tag is-danger">Signal Processing</span>
               </div>
             </article>
           </div>
@@ -125,63 +129,65 @@ class App extends Component {
                 <div className="tile is-parent is-vertical">
                   <article className="tile is-child box">
                     <figure className="image">
-                      <img src="https://s3-us-west-2.amazonaws.com/mypf/images/c311po-cover1.jpg" />
+                      <img src="https://s3.eu-west-2.amazonaws.com/pfacamuto/moodlines.png" />
                     </figure>
-                    <p className="title is-uppercase blueLine">C311po</p>
-                    <p className="subtitle">How might we recognize changes in public sentiment to optimize city administration?</p>
+                    <p className="title is-uppercase blueLine">Moodlines</p>
+                    <p className="subtitle">Evaluating patient moods using computer vision and patient sketches.</p>
                     <div className="content">
-                      <p>C311-PO is a virtual assistant for reporting non emergency issues in the city of Boston, integrated in Facebook Messenger platform.</p>
+                      <p>Moodlines, developed in conjunction with Ctrl-Group, involves sets of machine learning and computer vision algorithms to diagnose anxiety and depression from patient drawings. </p>
                     </div>
                     <div className="tags">
                       <span className="tag is-danger">Machine Learning</span>
-                      <span className="tag is-danger">Chat Bot</span>
-                      <span className="tag is-danger">Node JS</span>
+                      <span className="tag is-danger">Computer Vision</span>
                     </div>
                   </article>
                   <article className="tile is-child box">
                     <figure className="image is-16by9">
-                      <img src="https://s3-us-west-2.amazonaws.com/mypf/images/contexta1.jpg" />
+                      <img src="https://j.gifs.com/D9YX3Y.gif" />
                     </figure>
-                    <p className="title is-uppercase blueLine">Contexta</p>
-                    <p className="subtitle">How might we use artificial intelligence to create a personalized learning experience?</p>
+                    <p className="title is-uppercase blueLine">Synchronised Strokes</p>
+                    <p className="subtitle">Generative graphics.</p>
                     <div className="content">
-                      <p>Contexta is a virtual homework assistant on Amazon Echo platform. It provides personalized, adaptive, contextualized homework based on location, current events and user input.</p>
+                      <p>This project, with the Royal College of Music, used artificial intelligence algorithms and an infrared depth camera to generate computer graphics from violinists'' performances. </p>
                     </div>
                     <div className="tags">
-                      <span className="tag is-danger">Chat Bot</span>
-                      <span className="tag is-danger">Node JS</span>
+                      <span className="tag is-danger">Processing</span>
+                      <span className="tag is-danger">AI</span>
+                      <span className="tag is-danger">Computer Vision</span>
+                      <span className="tag is-danger">Signal Processing</span>
                     </div>
                   </article>
                 </div>
                 <div className="tile is-parent is-vertical">
                   <article className="tile is-child box">
                     <figure className="image">
-                      <img src="https://s3-us-west-2.amazonaws.com/mypf/images/recoin.png" />
+                      <img src="https://s3.eu-west-2.amazonaws.com/pfacamuto/neural_network.png" />
                     </figure>
-                    <p className="title is-uppercase blueLine">RECoin</p>
-                    <p className="subtitle">How might we incentivize adoption of electric vehicles?</p>
+                    <p className="title is-uppercase blueLine">Decoding neural signals.</p>
+                    <p className="subtitle">Using novel machine learning algorithms to decode signal neuron recordings.</p>
                     <div className="content">
-                      <p>For this sprint at IDEO Colab we prototyped what it would be like to mine a token built on Ethereum through driving electric vehicles as a way to incentivize adoption.</p>
+                      <p>  This project involved sets of random decision forests and kalman filters to estimate hand positions from openly available neural recordings.
+</p>
                     </div>
                     <div className="tags">
-                      <span className="tag is-danger">Blockchain</span>
-                      <span className="tag is-danger">Vue JS</span>
+                      <span className="tag is-danger">Machine Learning</span>
+                      <span className="tag is-danger">Neuroscience</span>
+                      <span className="tag is-danger">Signal Processing</span>
                     </div>
                   </article>
                   <article className="tile is-child box">
                     <figure className="image is-4by3">
-                      <img src="https://s3-us-west-2.amazonaws.com/mypf/images/kaitt-2.gif" />
+                      <img src="https://s3.eu-west-2.amazonaws.com/pfacamuto/michelangelo_wide.png"  />
                     </figure>
-                    <p className="title is-uppercase blueLine">KAITT</p>
-                    <p className="subtitle">How might we redesign priority in a system of autonomous vehicles?</p>
+                    <p className="title is-uppercase blueLine">MICHELANGELO</p>
+                    <p className="subtitle">Changing peripheral nerve injury rehabilitation.</p>
                     <div className="content">
-                      <p>KAITT is a voice controlled virtual assistant designed to handle emergencies in autonomous vehicles systems. It is able to detect, assess and rank the level of emergency of a given situation and obtain priority on the road to drive passengers as fast as possible to their destination.</p>
+                      <p>Michelangelo “gamifies” peripheral nerve injury rehabilitation. The device can be used as a controller for several Atari games and the companion iOS application tracks patient progress. The device was awarded the Imperial College Human Robotics design award, for excellence in patient centred design.</p>
                     </div>
                     <div className="tags">
-                      <span className="tag is-danger">Machine Learning</span>
-                      <span className="tag is-danger">Chat Bot</span>
-                      <span className="tag is-danger">Node JS</span>
-                      <span className="tag is-danger">Processing</span>
+                      <span className="tag is-danger">iOS</span>
+                      <span className="tag is-danger">Neuroscience</span>
+                      <span className="tag is-danger">Signal Processing</span>
                     </div>
                   </article>
                 </div>
@@ -194,11 +200,11 @@ class App extends Component {
                     <img src="https://s3-us-west-2.amazonaws.com/mypf/images/squid.gif" />
                   </figure>
                   <p className="title is-uppercase blueLine">Squid</p>
-                  <p className="subtitle">How might we design a seamless concert ticketing experience?</p>
+                  <p className="subtitle">Designing a seamless concert ticketing experience.</p>
                   <div className="content">
                     <p>This project developed over a 5 months period with financial support from an angel investor and Berklee ICE. When the Facebook Messenger platform opened and after frustrating personal experiences with ticket purchases, we saw the opportunity of simplifying ticket discovery and purchase via a chat interface.</p>
                     <p>The app leverages Messenger platform functionalities such as location, quick replies, template cards and integrated payment system to create a fluid experience. With a small script it identifies the users’ favorite artists playing in their geographic area.</p>
-                    <p>This showed the caveats of depending on 3rd parties platforms and pushed me to explore decentralized architectures.</p>
+                    <p>The application was featured as a semi-finalist in the MIT and Harvard hosted “HUBweek”.</p>
                   </div>
                 </div>
                 <div className="tags">
@@ -215,31 +221,32 @@ class App extends Component {
                 <figure className="image is-16by9">
                   <img src="https://s3-us-west-2.amazonaws.com/mypf/images/sounditure1.jpg" />
                 </figure>
-                <p className="title is-uppercase blueLine">Sounditure</p>
-                <p className="subtitle">How might we generate physical representation of sound?</p>
+                <p className="title is-uppercase blueLine">Crus Novus</p>
+                <p className="subtitle">A low cost transfemoral MMG prosthetic.</p>
                 <div className="content">
-                  <p>Sounditure is an online platform for design and manufacturing of custom furniture based on audio data from your favorite songs. This project was made during a 24h hackathon at MIT and was awarded the Autodesk prize.</p>
+                  <p>Crus Novus is a low cost mechanomyography system to control prosthetic legs for transfemoral amputation patients. The design is currently being further pursued by an Imperial College affiliated charity.
+</p>
                 </div>
                 <div className="tags">
                   <span className="tag is-danger">3D Modeling</span>
-                  <span className="tag is-danger">Web App</span>
+                  <span className="tag is-danger">Electronics</span>
+                  <span className="tag is-danger">Signal Processing</span>
                 </div>
               </article>
             </div>
             <div className="tile is-parent">
               <article className="tile is-child box">
                 <figure className="image is-16by9">
-                  <img src="https://s3-us-west-2.amazonaws.com/mypf/images/bandpass.jpg" />
+                  <img src="https://s3.eu-west-2.amazonaws.com/pfacamuto/cells.jpg" />
                 </figure>
-                <p className="title is-uppercase blueLine">Bandpass</p>
-                <p className="subtitle">How might we design an interactive concert experience?</p>
+                <p className="title is-uppercase blueLine">Medical Research Center UROP</p>
+                <p className="subtitle">Detecting host HIV particle carrier pathways.</p>
                 <div className="content">
-                  <p>Bandpass originally started as an app to create interactive (audience controlled) visuals for live concerts using biometric data and wearable technology. It then pivoted towards a small ecommerce platform for real time merch sales during concerts.</p>
+                  <p>Researched intra-cellular pathways for the transport of viral particles within HIV infected cells.</p>
                 </div>
                 <div className="tags">
-                  <span className="tag is-danger">Biometrics</span>
-                  <span className="tag is-danger">Data Visualization</span>
-                  <span className="tag is-danger">Processing</span>
+                  <span className="tag is-danger">Biochemistry</span>
+                  <span className="tag is-danger">Cellular Biology</span>
                 </div>
               </article>
             </div>
