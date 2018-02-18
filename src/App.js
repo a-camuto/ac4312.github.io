@@ -89,12 +89,13 @@ class App extends Component {
           <div className="tile is-parent">
             <article className="tile is-child box">
               <figure className="image is-16by9">
-                <img src="https://s3.eu-west-2.amazonaws.com/pfacamuto/proem2.png" />
+                <img src="https://s3.eu-west-2.amazonaws.com/pfacamuto/proem5.png" />
               </figure>
               <p className="title is-uppercase yellowLine">Proem</p>
               <p className="subtitle">A secure and decentralized cryptocurrency portfolio manager.</p>
               <div className="content">
                 <p>Proem is a decentralized portfolio management platform built on Blockstack. It enables users to visualize their assets with metrics from multiple markets and blockchains with data encrypted on their own controlled storage.</p>
+                <p>Visit at: <a href="http://proem.io">proem.io</a></p>
               </div>
               <div className="tags">
                 <span className="tag is-danger">Web</span>
@@ -148,7 +149,7 @@ class App extends Component {
                     <p className="title is-uppercase blueLine">Synchronised Strokes</p>
                     <p className="subtitle">Generative graphics.</p>
                     <div className="content">
-                      <p>This project, with the Royal College of Music, used artificial intelligence algorithms and an infrared depth camera to generate computer graphics from violinists'' performances. </p>
+                      <p>This project, with the Royal College of Music, used artificial intelligence algorithms and an infrared depth camera to generate computer graphics from violin performances. </p>
                     </div>
                     <div className="tags">
                       <span className="tag is-danger">Processing</span>
@@ -202,9 +203,10 @@ class App extends Component {
                   <p className="title is-uppercase blueLine">Squid</p>
                   <p className="subtitle">Designing a seamless concert ticketing experience.</p>
                   <div className="content">
-                    <p>This project developed over a 5 months period with financial support from an angel investor and Berklee ICE. When the Facebook Messenger platform opened and after frustrating personal experiences with ticket purchases, we saw the opportunity of simplifying ticket discovery and purchase via a chat interface.</p>
+                    <p>This project developed over a 5 month period with financial support from an angel investor and Berklee ICE. When the Facebook Messenger platform opened and after frustrating personal experiences with ticket purchases, we saw the opportunity of simplifying ticket discovery and purchase via a chat interface.</p>
                     <p>The app leverages Messenger platform functionalities such as location, quick replies, template cards and integrated payment system to create a fluid experience. With a small script it identifies the users’ favorite artists playing in their geographic area.</p>
                     <p>The application was featured as a semi-finalist in the MIT and Harvard hosted “HUBweek”.</p>
+                    <p>Visit at: <a href="https://squid.ai">squid.ai</a></p>
                   </div>
                 </div>
                 <div className="tags">

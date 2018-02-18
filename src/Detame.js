@@ -98,9 +98,8 @@ class DetameComponent extends Component {
           <p className="title is-uppercase yellowLine">Detame</p>
           <p className="subtitle">How might we help web users keep track of their digital identities?</p>
           <div className="content">
-            <p>Detame is a browser extensions that tracks data recorded during site visits to give users a better understanding of their privacy and digital identities.</p>
-            <p>This is a side project I started after working on a decentralized credit scoring system at IDEO Colab.</p>
-            <p>Come back sometime to try it out.</p>
+            <p>Detame is a browser extension that tracks data recorded during site visits to give users a better understanding of their privacy and digital identities.</p>
+            <p>Come back soon to try it out.</p>
           </div>
           <div className="tags">
             <span className="tag is-danger">Decentralized Identity</span>

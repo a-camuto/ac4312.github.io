@@ -5,11 +5,12 @@
   "dependencies": {
     "animejs": "^2.2.0",
     "bulma": "^0.6.0",
-    "gh-pages": "^1.0.0",
+    "gh-pages": "^1.1.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14",
-    "three": "^0.87.1"
+    "three": "^0.87.1",
+    "urlify": "^0.3.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,5 +20,5 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/a-camuto/"
+  "homepage": "https://a-camuto.github.io/projects"
 }
